@@ -1,0 +1,35 @@
+h1,h2,p {
+    text-align:center;
+  }
+  
+  img {
+    width:60%;
+    display:block;
+    margin:0 auto;
+  }
+  
+  .titlestuff {
+    width:40%;
+    display:block;
+    margin:0 auto;
+  }
+  
+  @media screen and (max-width: 992px) {
+      img {
+        width:80%;
+      }
+      .titlestuff {
+        width:70%;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+      img {
+        width:80%;
+      }
+      .titlestuff {
+        width:80%;
+      }
+  }
+
+  
